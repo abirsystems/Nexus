@@ -11,6 +11,7 @@ import pandas as pd
 import spacy
 import nltk
 nltk.download('punkt_tab')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize, word_tokenize
